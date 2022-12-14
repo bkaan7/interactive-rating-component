@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+}
+
+.container {
+  background-color: hsl(213, 19%, 18%);
+  color: #fff;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 12px;
+  width: 400px;
+  height: 420px;
+}
+.container-thnks {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: hsl(213, 19%, 18%);
+  color: #fff;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 12px;
+  width: 400px;
+  height: 420px;
+}
+
+.baslik {
+  color: #fff;
+}
+
+.text {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #3f4953;
+  border-radius: 50%;
+}
+
+.numberContainer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #3f4953;
+  border-radius: 50%;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 10px;
+}
+
+.one:hover {
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+
+.two:hover {
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+
+.three:hover {
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+.four:hover {
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+.five:hover {
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  width: 400px;
+  height: 50px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: hsl(25, 97%, 53%);
+  background-color: #fff;
+}
+
+.thnksBtn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: hsl(25, 97%, 53%);
+  width: 280px;
+  padding: 15px;
+  background-color: #3f4953;
+  border-radius: 30px;
+  margin-top: 15px;
+}
+
+.btnClick {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+.result {
+  padding: 3px;
+}
